@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Welcome from './Welcome';
-import Setup from './Setup';
 
 it('renders Welcome without crashing', () => {
   shallow(<Welcome />)
